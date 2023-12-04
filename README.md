@@ -1,5 +1,5 @@
 # LeadScreeningKitValidation
-Contains a MATLAB script that support a submitted manuscript that compares lead concentration in household samples to the respective EPA limits. Also contains an R script that performed principal component analysis. Scripts were written in MATLAB R2022a and RStudio Version 2022.12.0+353 on Mac OS 13.5.2.
+Contains a MATLAB script that support a submitted manuscript that compares lead concentration in household samples to the respective EPA limits. Also contains an R script that performed principal component analysis. Scripts were written in MATLAB R2022a + Text Analytics Toolbox and RStudio Version 2022.12.0+353 on Mac OS 13.5.2.
 
 # List of Files
 Redacted LIRA.pdf - A lead inspection and risk assessment (LIRA) report in pdf form. Contains the lead concentrations of samples analyzed by a licensed inspector within a home. Identifying information of home is redacted.
