@@ -15,6 +15,13 @@ PCA_Bins_29May23.xlsx - An xlsx file containing bin values of all samples types 
 PCACluster_pub.R - R script that pulls in PCA_Bins_29May23.xlsx and performs principal component analysis and cluster analysis. 
 
 # Usage of Scripts
-LRA_LSK_ForPublication.m already references the document and should just be run. The following objects should be copied 
+LRA_LSK_ForPublication.m already references the document and should just be run. The following objects should be copied into an Excel sheet (as shown in LIRA_LSK_Validation_Pub.xlsx) for further analysis:
+
+_locquanthaz_ - an n by 5 string array where the columns correspond to: general sample location, detailed sample location, lead concentration in sample, quantitation units, and Y/N on whether the sample concentration is over the respective EPA limit. Compiles the information for all samples analyzed in the LIRA.
+
+_tableandhaz_ - an 8 by 5 string array where the columns correspond to: sample type, lead concentration in sample, quantitation units, sample location, and Y/N on whether the sample concentration is over the respective EPA limit. Compiles the information for all 8 samples analyzed with the lead screening kit.
+
+
+
 
 
