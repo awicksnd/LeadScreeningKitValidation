@@ -1,6 +1,6 @@
 %% Extracting Data from LRA
-str = extractFileText("Reports/Redacted LIRA.PDF");
-T = readtable('Reports/Redacted LSK.docx');
+str = extractFileText("Redacted LIRA.PDF");
+T = readtable('Redacted LSK.docx');
 
 str = strsplit(str,'\n')'; % splits report by line
 

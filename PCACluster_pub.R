@@ -6,9 +6,9 @@ library(rgl)
 library(plotly)
 library(ggplot2)
 theme_set(theme_bw() + theme(legend.position = "top"))
-
-LSKAllData <- read_excel("/Users/alyssawicks/Documents/RStudio/PCA_Bins_29May23.xlsx",
-                         sheet = "Bins")
+pwd <- getwd()
+fileDir <- paste(pwd,"PCA_Bins_29May23.xlsx",sep="/")
+LSKAllData <- read_excel(fileDir, sheet = "Bins")
 
 street<- LSKAllData[1:402,c("Soil - Street")]
 yard <- LSKAllData[1:402,c("Soil - Yard")]
