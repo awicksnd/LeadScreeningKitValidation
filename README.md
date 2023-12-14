@@ -10,7 +10,11 @@ LRA_LSK_ForPublication.m - MATLAB script that pulls in Redacted LIRA.pdf and Red
 
 LIRA_LSK_Validation_Pub.xlsx - An xlsx file in which string array variables generated from LRA_LSK_ForPublication.m are compiled. Also contains data analysis of the 107 homes that had screening kits and LIRAs performed to determine the rate at which the kit and LIRA agree on presence of lead hazards.
 
+LIRA_LSK_Validation_Pub.csv - Same file as above but saved as .csv instead of .xlsx for accessiblity.
+
 PCA_Bins_29May23.xlsx - An xlsx file containing bin values of all samples types (street soil, yard soil, dripline soil, exterior paint, interior paint, threshold dust, old dust, windowsill dust) for 402 homes. Bins values were used to minimize the effect of very highly leaded samples on the PCA and were assigned as a proportion of the EPA limit (bin 1 = 0-0.49 x respective EPA limit, bin 2 = 0.5-0.99 x EPA limit, bin 3 = 1.0-1.49 x EPA limit ... bin 7 = >3.5x EPA limit). 
+
+PCA_Bins_29May23.csv - Same file as above but saved as .csv instead of .xlsx for accessibility.
 
 PCACluster_pub.R - R script that pulls in PCA_Bins_29May23.xlsx and performs principal component analysis and cluster analysis. 
 
